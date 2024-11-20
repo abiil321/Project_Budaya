@@ -34,6 +34,13 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen 
+    name="budaya/[budaya]" 
+    options={{ 
+      headerTitle: "Kembali", // Mengubah teks di header
+      headerBackTitle: "Kembali", // Teks tombol kembali (khusus iOS)
+    }} 
+  />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
