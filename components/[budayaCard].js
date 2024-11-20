@@ -57,7 +57,7 @@ const BudayaCard = ({ item }) => {
     marginBottom: 5,
   }}
 >
-  {item.id} + {item.name.split(' ').slice(0, 5).join(' ')}{' '}
+  {item.id}. {item.name.split(' ').slice(0, 5).join(' ')}{' '}
   {'\n'}
   {item.name.split(' ').slice(5).join(' ')}
 </Text>
